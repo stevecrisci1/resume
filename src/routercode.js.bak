@@ -1,0 +1,266 @@
+import React from 'react'
+import $ from 'jquery'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Envelope from './email.png'
+import './App.css';
+import Skills from './skills.js'
+import Experience from './experience.js'
+import Education from './education.js'
+import References from './references.js'
+import Audio from './audio.js'
+import Samples from './samples.js'
+import { Switch, Route } from "react-router-dom";
+
+import * as SMTP from './smtp.js'
+
+
+
+
+function formCancel(e) {
+  e.preventDefault()
+  $("#textingArea").hide();
+  return false;
+}
+
+function formSubmit() {
+  $("#textingArea").hide();
+  //let submitButton = document.getElementById("submit_form");
+  //let form = document.getElementById("email_form");
+
+
+  let message = $("#text")[0].value
+  let email = $("#email")[0].value
+
+  if (message.length < 6){
+    alert("Your message is too short")
+    return
+  }
+  
+  if (email.length < 6){
+    alert("Your email is required")
+    return
+  }
+  
+  if (!email.includes("@")){
+    alert("A real email is required")
+    return
+  }
+  //let phone = $("#phone")[0].value
+  let file = $("#fileupload")[0].files[0]
+  console.log(file);
+  
+  let token = "a79da296-993b-458d-bebb-f9eee4d40125"
+  let from = "me@stevecrisci.com"
+  let to = "steve_crisci@yahoo.com"
+  message = " Email: " + $("#email")[0].value   + "       Phone: " + $("#phone")[0].value  + "      Message: " + message
+  let subject = "From web site"
+
+  if (file){
+    //send with attachment
+    let reader = new FileReader();
+    reader.readAsBinaryString(file);
+    reader.onload = function () {
+      let datauri = "data:" + file.type + ";base64," + btoa(reader.result);
+      SMTP.Email.sendWithAttachment(from,
+        to,
+        subject,
+        message,
+        {token:token},
+        "",
+        "",
+        datauri,
+        function done(message) { alert("Message sent OK") }
+      );
+    };
+    reader.onerror = function () {
+      console.log('there are some problems');
+    };
+  }
+  else
+  {
+    //send without attachment
+    SMTP.Email.send({
+      SecureToken: token,
+      To: to,
+      From: from,
+      Subject: subject,
+      Body:  message,
+      Attachments:[]
+    }).then(
+      message => alert(message)
+    );
+    
+  }
+
+}
+
+
+function showTextArea() {
+  $("#text")[0].value = ""
+  $("#email")[0].value = ""
+  $("#phone")[0].value = ""
+  $("#fileupload")[0].value = ""
+  $("#textingArea").toggle();
+}
+
+/*
+function sendText() {
+  let textToSend = $("#textingArea").text();
+  $("#textingArea").hide();
+  $("#sendTextButton").hide();
+}
+*/
+
+
+
+
+export default function Routercode() {
+  return (
+    <div>
+      <Navbar bg="light" expand="lg">
+        <Navbar.Brand href="#home"><h1 style={{position:"relative", top:"-25px"}}>STEVE CRISCI</h1></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/skills">Skills</Nav.Link>
+            <Nav.Link href="/experience">Experience</Nav.Link>
+            <Nav.Link href="/education">Education</Nav.Link>
+            <Nav.Link href="/references">References</Nav.Link>
+            <Nav.Link href="/samples">Samples</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+
+
+
+      <div style={{ marginLeft: "20px", marginRight: "20px", fontSize: "1.0em" }}>
+
+        <div className="row">
+          <div className="col-sm-2">
+            <a href="mailto:steve_crisci@yahoo.com​">Steve_Crisci@Yahoo.com
+                <img alt="email" src={Envelope} style={{ width: "30px", height: "30px" }} />
+            </a>
+          </div>
+
+          <div className="col-sm-1">
+            <div className="btn-primary" onClick={showTextArea} style={{ textAlign: "center" }}>
+              Text
+            </div>
+          </div>
+
+          <div className="col-sm-2 nowrap" >
+            <p>804-982-1427</p>
+          </div>
+
+          <div className="col-sm-5" >
+            <Audio />
+          </div>
+
+          <div className="col-sm-2" style={{ backgroundColor: "orange", fontSize: "1.25em" }}>
+            <span>Resume:
+                  <a href="http://www.stevecrisci.com/SteveCrisci2020.docx" rel="noopener noreferrer" target="_blank" download className="margin10">
+                DOC
+                  </a>
+              <a href="http://www.stevecrisci.com/SteveCrisci2020.pdf" rel="noopener noreferrer" target="_blank" className="margin10 pull-right" download>
+                PDF
+                  </a>
+            </span>
+          </div>
+        </div>
+		<div className="row">
+		<div className="col-sm-5">
+		<div id="textingArea" name="textArea" className="textArea" >
+              <div method="post" id="email_form">
+                <div className="row">
+					<div className="col-sm-12">
+						<input type="text" readOnly name="subject" value="Subject" style={{ display: "none" }} />
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-sm-12">
+						*<textarea name="text" id="text" placeholder="Message" rows="3" cols="45"></textarea>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-sm-12">
+						*<input type="email" id="email" name="email" placeholder="yourname@email.com" />
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-sm-12">
+						&nbsp;<input type="text" id="phone" name="phone" placeholder="Phone (optional)" className="inline" />
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-sm-12">
+						<input type="file" id="fileupload" name="fileupload" style={{margin:"5px"}}/>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-sm-12">
+						<input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-sm-12">
+						<input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-sm-12">
+						<input type="text" name="reply_to" placeholder="steve_crisci@yahoo.com" style={{ display: "none" }} />
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-sm-12">
+						<input type="hidden" name="sms_format" value="true" />
+						<button id="btnSubmit" className="btn-primary pull-right" onClick={formSubmit}>Send</button>
+						<button id="btnCancel" className="btn-primary pull-right" onClick={formCancel}>Cancel</button>
+					</div>
+				</div>
+				
+              </div>
+            </div>
+		</div>
+		</div>
+
+
+
+
+        <div id='seconds' style={{ visibility: "hidden" }}></div>
+      </div>
+
+
+
+
+
+
+      {/* A <Switch> looks through its children <Route>s and
+                  renders the first one that matches the current URL. */}
+      <Switch>
+
+        <Route path="/skills">
+          <Skills />
+        </Route>
+        <Route path="/experience">
+          <Experience />
+        </Route>
+        <Route path="/education">
+          <Education />
+        </Route>
+        <Route path="/references">
+          <References />
+        </Route>
+        <Route path="/samples">
+          <Samples />
+        </Route>
+
+      </Switch>
+
+
+    </div>
+  )
+}

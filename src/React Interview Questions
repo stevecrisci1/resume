@@ -1,0 +1,24 @@
+React is a javascipt library that has what is known as a virtual DOM which handles  processes for a single page application(SPA).  A representation of the DOM objects.  A light-weight copy.
+
+React uses JSX to create components with one-way data binding.  It is simple javascript code that provides great performance.
+
+React boosts productivity.  React renders faster.  The equates to performance via stable code that is SEO friendly.  React has tool sets and even has React-Native which is for mobile apps.
+
+Whereas Angular is a complete framework, React is a javascript library.
+Angular is two-way data binding and React is only one.
+
+Render in react is when a component calls a function which returns a React element instead.
+
+State is where property values are stored.  When the state changes the element re-renders.
+
+Props are HTML attributes that are used as arguements.
+
+setState command is used to update a components state.
+
+This would be a stateful component as opposed to a stateless component just displays prop values.
+
+There are three phases in React.  Mounting, Unmounting and Changing or "Updating" when the state changes.
+
+
+
+

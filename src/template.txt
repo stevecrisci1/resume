@@ -1,0 +1,59 @@
+import React, {Component} from 'react'
+import ReactDom from 'react-dom'
+
+export default class Audio extends Component{
+       constructor(){
+               super()
+               this.state = {  appData:{ }, isLoading: true   }
+               this.handleChange= this.handleChange.bind(this)
+            }
+
+         //appFunction() = {  //code here  }
+
+         handleChange(event) {
+              const target = event.target;
+              const value = target.type === 'checkbox' ? target.checked : target.value;     
+              const name = target.name;
+               this.setState({
+               [name]: value
+             });
+           }
+         componentDidMount(){
+		const fetchParams = {
+		          method: 'GET',
+		           mode: 'cors'
+	          };
+
+		const url = "https://swapi.co/api/people/1";
+
+		fetch(url, fetchParams)
+		         .then(response => response.json())
+		        .then(data => {
+			        this.setState({appData:data})
+		        })
+	  }
+
+         shouldComponentUpdate(nextProps, nextState){
+                 if(    1 === 1   )
+                           return true
+                  else
+                           return false 
+         }
+         componentWillUnmount(){
+                  //code here
+         }
+         static getDerivedStateFromProps(props,state){
+                  //returns the new, updated state based upon the props
+                  //not popular
+         }
+         getSnapshotBeforeUpdate(){
+                   //for backing up data... restore stuff
+                   //not popular
+          }
+         render(){
+                  return(
+                           <div>  HTML  </div>
+                  )
+         }
+}
+

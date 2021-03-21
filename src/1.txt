@@ -1,0 +1,213 @@
+
+
+
+<div id="educationHeader>
+<h1>Education</h1>
+ 
+<div id="education">
+ GIS Certificate                                                                                                            MAR 2007 
+
+ PROFESSIONAL DEVELOPMENT  Cyber Security Awareness Training - VA State  FEB 2019 
+ MarkLogic Part I  OCT 2016 
+ ASP.NET USING C#                                                                                                      MAR 2008 
+ DreamWeaver I & II                                                        MAR 2004 
+ .NET Certificate (MS course 2373)                                                        FEB 2003 
+
+
+
+Virginia Commonwealth University
+Virginia Commonwealth University
+Degree NameGraduate CertificateField Of StudyGeographic Information Systems; GIS
+Dates attended or expected graduation1992 – 1996
+
+BS Information Systems
+
+
+Virginia Commonwealth University - School of Business
+Virginia Commonwealth University - School of Business
+Degree NameBachelor of Science (BS)Field Of StudyInformation TechnologyGrade2.8
+Dates attended or expected graduation1992 – 1996
+
+Activities and Societies: Central Virginia FoxPro User Group founder
+
+Walter Panas
+Walter Panas
+Dates attended or expected graduation1981 – 1983
+
+
+Licenses & Certifications
+MarkLogic
+Marklogic 9
+Issuing authorityMarkLogic
+
+Issued Sep 2017No Expiration Date
+
+See credential
+MarkLogic
+MarkLogic Fundamentals
+Issuing authorityMarkLogic
+
+
+Issued Apr 2017No Expiration Date
+
+Udemy
+The Web Developer Bootcamp
+Issuing authorityUdemy
+
+Issued Nov 2016No Expiration Date
+
+Virginia Commonwealth University
+Geographical Information Systems
+Issuing authorityVirginia Commonwealth University
+
+
+Issued Mar 2007No Expiration Date
+
+Code School
+Try Git
+Issuing authorityCode School
+
+See credential
+Show less 
+Skills & Endorsements
+Add a new skill
+
+Take skill quiz
+MarkLogic
+Databases
+See 13 endorsements for Databases13
+
+Endorsed by Clarence Lewis, who is highly skilled at this
+
+JavaScript
+See 7 endorsements for JavaScript7
+Peter Canterini and 6 connections have given endorsements for this skill
+
+Industry Knowledge
+SDLC
+
+Database Design
+
+Web Applications
+
+Software Development
+
+Web Development
+
+Programming
+
+Web Design
+
+Requirements Analysis
+
+Software Documentation
+</div>
+</div>
+
+
+
+<div id="tooldHeader">
+Tools & Technologies
+<div id="tools">
+C#
+
+
+HTML
+
+
+Microsoft SQL Server
+
+
+SQL
+
+
+.NET
+
+
+ASP.NET
+
+
+Visual Studio
+
+
+XML
+
+
+CSS
+
+
+VB.NET
+
+
+AJAX
+
+
+Crystal Reports
+
+
+ASP
+
+
+Microsoft Excel
+
+
+MySQL
+
+
+CMS
+
+
+Visual Basic
+
+
+Access
+
+
+Visual C#
+
+
+IIS
+
+
+T-SQL
+
+
+ADO.NET
+ASP.NET MVC
+SSIS
+ASP.NET AJAX
+Entity Framework
+jQuery
+Node.js
+MongoDB
+NoSQL
+
+
+Node
+Stored Procedures
+
+
+VSS
+WinForms
+Express.js
+MVC
+</div>
+</div>
+
+Scott Goode
+Scott Goode
+Senior Software Developer at Vitalant
+
+March 25, 2014, Scott was a client of Steve’s
+
+My company utilized Steve to setup and manage a donor reward website. Through the entire process Steve provided excellent and timely work and helped us meet some challenging requirements. The entire team worked to take over a labor and time intensive process so that we could focus on recruiting and retaini... See more
+Scott DeBolt
+Scott DeBolt
+National Sales Manager at Ukrop's Threads
+
+February 26, 2014, Scott was senior to Steve but didn’t manage directly
+
+To Whom it May Concern: I highly recommend Steve Crisci as a candidate for employment. Steve was employed by Ukrop's Dress Express as the Information Systems Manager from 2011 - 2014. Steve was responsible for computer support including maintaining the online apparel catalog, PC and application support ... See more
+
+
+https://www.linkedin.com/in/stevecrisci/ 

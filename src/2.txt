@@ -1,0 +1,281 @@
+ 
+ 
+  <div>
+Core Consulting, Inc. JULY 2019 – AUG 2019 Front-End Developer(React) Temporary position creating a blog-type application for senators to review VA department regulations with the Virginia ​Division of Legislative Automated Systems​.​ Integrated TinyMCE enhancing the textarea with RTF.  Integrated React-Select adding a dropdown multi-select feature.  
+ </div>
+ 
+
+<div id="dataconceptsHeader">
+Data Concepts
+<div id="dataconcepts">
+Sr. Web Developer
+Company NameData Concepts
+Dates EmployedOct 2017 – Present
+Employment Duration2 yrs
+LocationRichmond, Virginia Area
+
+
+Joined Agile-based team to design and develop the State of Virginia Department of Human Resources Online Open Enrollment System. Involved integration with legacy mainframe data. Applied bootstrap and responsive-web design to achieve desired UI results. Identified and corrected Americans with Disabilities Act (ADA) website discrepancies. Provided programming documentation and developed user-guide. Lead developer on public 2017 & 2018 ACA Certification data form. Avoided many “rabbit holes” via team collaboration meetings.
+-Modified and created Single-Page Applications with AngularJS and MVC .NET/C#
+-Agile-based environment using Team Foundation Server
+-REST API modifications
+-Entity Framework Code First
+-Performed MS SQL data mining and ad-hoc queries to create statistical reports.
+-Selenium Unit Testing
+-VA State Commonwealth Cyber Security Awareness Training
+</div>
+</div>
+
+ <div id="tahzooHeader">
+ Tahzoo
+ <div id="tahzoo">
+
+Senior Front End Developer
+Company NameTahzoo
+Dates EmployedDec 2016 – Jul 2017
+Employment Duration8 mos
+LocationRichmond, Virginia Area
+Trained in MarkLogic, NODE, & XQuery to fulfill the needs required within a Tesla contract.
+
+
+Tahzoo, LLC Richmond, VA DEC 2016 – JULY 2017 Sr. Front End Developer (MarkLogic) Assisted with POC modifications and an internal employee mapping web site within an Agile environment.  Trained with MarkLogic Data Hub and Cloud Service. ● Achieving MarkLogic certification. ● Entity Framework 6 (Model First). ● Javascript / RAZOR modifications. 
+</div>
+</div>
+
+<div id="knifecenterHeader">
+KnifeCenter
+<div name="knifecenter">
+Web Developer
+Company NameKnifeCenter
+Dates EmployedNov 2015 – May 2016
+Employment Duration7 mos
+LocationFredericksburg, VA 22407
+Increased customer service productivity. Interviewed and co-worked with staff to gather information involving both customer and order processing difficulties. Enhanced the in-house customer service application (StoneEdge). Also, extended existing WebDNA web pages. Developed accounting web APIs.
+
+KnifeCenter, Fredericksburg, VA  NOV 2015 – MAY 2016 
+.NET Developer  Hired to improve customer service and purchasing response time.  Improved customer service computer performance.  Upon completion assisted with HTML Front-End. ● Added data validation to web forms and fixed invalid XML data exports. ● Extended shopping menu with external web modal window for customer UI. ● HTML, Bootstrap, Javascript, JQuery, C#, AJAX, VS2015, REST API, XML, MS ACCESS, WebDNA . 
+</div>
+</div>
+
+
+<div id="shockoeHeader">
+Shockoe, LLC
+<div id="shockoe">
+ Richmond, VA  
+ 
+JUL 2016 – AUG 2016 
+Front End Developer (AngularJS) Team member in training to develop a responsive web application for Capital One utilizing the AngularJS framework.  Development accomplished on Macintosh environment using Git, BitBucket, Sourcetree and JIRA in an Agile environment.  ● Created AngularJS based mobile applications utilizing HTML5, CSS3, Bootstrap, Rest API Services, Javascript, JQuery, AngularJS, ASP.NET MVC, C#, MongoDB. Postman, Sketch, NODE. 
+</div>
+</div>
+ 
+ 
+<div id="parallonHeader">
+Parallon
+<div id="parallon">
+Application Developer
+Company NameParallon
+Dates EmployedJul 2015 – Sep 2015
+Employment Duration3 mos
+LocationRichmond, Virginia Area
+Successfully created an email monitoring windows service. The directive was to extract, store and redirect any received emails.
+
+
+Independent Hourly Consultant FEB 2014 – OCT 2015 
+Short-term staffing agency contracts concentrating on client web design and enhancements. 
+Consult2Hire – HCA - Richmond, VA  ● Created Windows Service scheduling daily or monthly FTP transfer of files. ● Automated component of accounting billing procedure. ● C#, XML, SQL Stored Procedures, TFS, ASP.NET. 
+
+</div>
+</div>
+
+
+
+
+
+ <div id="smartHeader">
+SMART Resources 
+<div id="smart">
+ - IFMG CarLOAN – Richmond, VA  ● Created WCF code to acquire TransUnion consumer credit score. ● C#, VB, SQL Stored Procedures, DLL,  WCF, VSS, TFS, ASP.NET, XML. 
+Interactive Financial Marketing Group
+Consultant
+Company NameInteractive Financial Marketing Group
+Dates Employed2015
+Employment Durationless than a year
+LocationRichmond, Virginia Area
+Requested to enhance the www.carloan.com site to display customer credit rating scores. Created WCF Application using SOAP to retrieve data from TransUnion web service host.
+</div>
+</div>
+
+
+<div id="vitaHeader">
+Virginia Information Technologies Agency
+<div id="vita">
+Senior .NET Developer
+Company NameVirginia Information Technologies Agency
+Dates EmployedOct 2014 – Dec 2014
+Employment Duration3 mos
+LocationRichmond, Virginia Area
+Developing and enhancing VA State web sites utilizing MVC, ASP.NET, C# and Microsoft CRM. Followed technical specifications to create a web page allowing public searching for certified notaries throughout Virginia State. https://solutions.virginia.gov/Notary/Search/Search
+ 
+VITA - VA Governor’s Office – Richmond, VA ● Create, test and deploy the Commonwealth of VA Public Notary Search web page. ● Authorize and Authenticate user logins and implement a single sign on (SSO) web site. ● C#, MVC5, Bootstrap, MS CRM, TFS, ASP.NET, RWD, Bootstrap, RAZOR, Agile. 
+</div>
+</div>
+
+
+<div id="ukropsHeader">
+Ukrop's Dress Express
+<div id="ukrops">
+Information Systems Manager
+Company NameUkrop's Dress Express
+Dates EmployedJun 2011 – Feb 2014
+Employment Duration2 yrs 9 mos
+Fast paced environment where I was always achieving concept to production deadlines. Production support routing incoming application issues to appropriate support team members. Provided day-to-day operational support in many departments. Developing and debugging .NET applications, writing/executing SQL queries and implementing web site enhancements.  Web design, maintenance and integration of eCommerce apparel sales site. Upgrade web sites from ASP classic/VBScript to ASP.NET /C#. Company personnel computer assistance and training. Developed intranet system flow application integrating all departments with web products. SQL Server 2008 database maintenance and table updates. Developed internal Contact Management System for sales department. Produced sales and web user-based reports for management. Internal web-based application development to review sales, inventory, and reports. Introduced advanced integrating of nopCommerce web sales software. 
+Ukrop’s Dress Express, Richmond, VA Information Systems Manager 
+JUN 2011 – FEB 2014 
+ 
+● Data migration (ETL) from MS Access/Excel/XML to SQL Server 2005/2008.  ● Manage 40+  eCommerce websites. ● Develop, test and deploy new ASP.NET / C# / JavaScript enhancements. ● Integrate orders with Sage AccPac ERP system via SQL Server Integration Service (SSIS).  ● C#, SQL, SSRS, SSIS, VB Script, MVC3, JavaScript, ASP.NET. 
+</div>
+</div>
+
+
+
+<div id="smart2Header">
+Smart Resources
+<div id="smart2">
+NET Developer
+Company NameSmart Resources
+Dates EmployedNov 2010 – Apr 2011
+Employment Duration6 mos
+Client discussions to gather requirements, coordinate functional design and layout, project scope, identify and deploy the appropriate resources to support systems development.
+Environment: ASP.NET 3.5 SP1, C#, Visual Studio 2008.
+Upload site and train end-users with CMS methods.
+User guide documentation. 
+</div>
+</div>
+
+<div id="signatureHeader">
+Signature Consultants
+<div id="signature">
+.NET Developer
+Company NameSignature Consultants
+Dates EmployedDec 2009 – Sep 2010
+Employment Duration10 mos
+Web development/modifications w/ Javascript and ASP.NET
+</div>
+</div>
+
+<div id="precisionHeader">
+Precision IR
+<div id="precision">
+NET Developer
+Company NamePrecision IR
+Dates EmployedDec 2009 – Sep 2010
+Employment Duration10 mos
+C#
+existing customer ASP.NET web pages using C#, JAVASCRIPT, ASP 2.0, .NET 3.5 SP1, AJAX, SQL 2005, Dundas Charts and Visual Studio 2008.; Integrate SQL stock data into financial trend charts and user-friendly web pages.
+Translate dynamic web page into several languages.
+Created monthly analytical customer report reflecting company's performance and interaction with potential investment firms. 
+</div>
+</div>
+
+
+<div id="vmlHeader">
+Virginia Municipal League
+<div id="vml">
+NET Developer
+Company NameVirginia Municipal League
+Dates EmployedJul 2008 – Nov 2009
+Employment Duration1 yr 5 mos
+C#
+Manage software project implementation from conception through deployment; including transforming business requirements into system specifications, database schema, GUI design and code.
+Design applications and web sites using ASP.NET 3.5 SP1, XML, AJAX, Web Parts, LINQ, C# and SQL 2005 while adhering to specified timelines. Interacted with end-users throughout development and testing.
+Import member emails into local SQL-based NavRisk Insurance application.
+Automate import of Excel data into building assessment tables saving hundreds of man-hours data entry with zero percent error margins.
+Create many-to-many SQL database and create user interface to maintain lists for medical facilities and doctors.
+Imported GenSource insurance claims data to accurately create invoices and eliminate overlooked manual billing errors. Update and debug both intranet and public web pages. 
+</div>
+</div>
+
+<div id="vedHeader">
+Virginia Economic Development 
+<div id="ved">
+NET Developer
+Company NameVirginia Economic Development
+Dates EmployedNov 2007 – May 2008
+Employment Duration7 mos
+C#.
+Upgrade internal, web-based contact management system using ASP 2.0, VB.NET, and C# with a SQL Server back-end. Outdated code translation/analysis was performed utilizing Visual Studio 2008 debug tools. Upgrade web site using AJAX to provide users with methods to access data more conveniently. Update web contents. Translate application users request to code, providing ad-hoc modifications for both access web pages and reports. Observe on-line user data handling with SQL SERVER 2005/2008 and SQL TOOLS. 
+</div>
+</div>
+
+<div id="metaHeader">
+Meta Pharmacy Systems, Floral Park
+<div id="meta">
+Senior Analyst
+Company NameMeta Pharmacy Systems, Floral Park
+Dates EmployedAug 2006 – Nov 2007
+Employment Duration1 yr 4 mos
+FoxPro.
+Provide debug support on medical software to improve patient medication safety for small to medium-sized hospital facilities.
+Manage handling of pharmacy/patient clinical data using HL7 message communication codes between hospital equipment.
+Maintain and update MS SQL server.
+Provide online remote customer service. 
+</div>
+</div>
+
+<div id="vcuHeader">
+VCU - Transportation Safety Training Center
+<div id="vcu">
+Senior Analyst
+Company NameVCU - Transportation Safety Training Center
+Dates EmployedJun 2003 – Mar 2006
+Employment Duration2 yrs 10 mos
+FoxPro.
+Developed DMV approved application for Virginia State police to report and analyze traffic accidents to identify "high accident" locations.
+Responsibilities included database design, creating stored procedures, programming FoxPro, C# and .NET, data integrity and extensive SQL report design.
+Performed on-site installations and training, coordinated Virginia Traffic Records conferences. Designed and routinely updated division website.
+Position required statistical data mining and customer relations. 
+</div>
+</div>
+
+<div id="vdotHeader">
+VA. Department of Transportation
+<div id="vdot">
+Senior Analyst
+Company NameVA. Department of Transportation
+Dates EmployedMar 2001 – Jul 2002
+Employment Duration1 yr 5 mos
+FoxPro.
+Assist Virginia State Pavement Engineers with data extraction, transfer and loading.
+Developed SQL queries involving road and highway pavement conditions.
+Developed field data integrity application for VDOT Central Office's highway preventive maintenance program to eliminating overlooked data entry errors.
+Design dynamic statistic application for pavement engineers.
+Create ad hoc Federal Highway and VA State Pavement Conditions road severity reports.
+</div>
+</div>
+
+<div id="dsdHeader">
+DataBase Software Designs
+<div id="dsd">
+Owner
+Company NameDataBase Software Designs
+Dates EmployedJun 1992 – Jan 2001
+Employment Duration8 yrs 8 mos
+FoxPro.
+Managed company advertising, sales, accounting, project scopes, team management. Analyze business needs to design custom RDBMS data applications. Investigate and resolve user computer software/hardware problems. Conducted training and supervised five employees as well as VCU interns.
+</div>
+</div>
+
+<div id="xpertsHeader">
+Xperts Consulting
+<div id="xperts">
+Software Programmer
+Company NameXperts Consulting
+Dates EmployedAug 2000 – Oct 2000
+Employment Duration3 mos
+FoxPro.
+Query customer database files to locate incompatible U.S. Postal Office mailing addresses for specialized customer orders and mailing lists.
+Assist with modifications to BCC Mail-Manager application for managing mail lists. Create SQL queries extracting data for specialized customer orders and mailings.
+Generate ad-hoc statistical reports analyzing postal costs, delivery areas, and customer targets. 
+</div>
+</div>
+

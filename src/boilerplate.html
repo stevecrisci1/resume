@@ -1,0 +1,188 @@
+<html>
+<body>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  
+  
+  <h1>React-Native Boilerplate</h1>
+  
+  
+Name:<input id="screenName" type="text" 
+onblur="$('.screenName').text($('#screenName').val())"></input>
+
+
+<input type="checkbox" checked id="includeImage" name="includeImage" value="Include Images" onclick="$('.includeImage').toggle()">
+<label for="includeImage"> Include Images</label>
+
+<input type="checkbox" checked id="includeHooks" name="includeHooks" value="Include Hooks" onclick="$('.hooks').toggle()">
+<label for="includeImage"> Include Hooks</label><br>
+
+
+<input type="checkbox" checked id="includeReducer" name="includeReducer" value="Include Reducer" onclick="$('.includeReducer').toggle()">
+<label for="includeReducer"> Include Reducer</label><br>
+
+
+<input type="checkbox" checked id="includeTextInput" name="includeTextInput" value="Include Text Input" onclick="$('.includeTextInput').toggle()">
+<label for="includeTextInput"> Include Text Input</label><br>
+
+
+<br/><hr/>
+
+
+import React  <span class="hooks">, &#123;useState&#125;</span> from &#39;react&#39;<br/>
+import &#123View, Text, StyleSheet 
+
+<span id='includeImage' class="includeImage">, Image </span> 
+
+<span id='includeTextInput' class="includeTextInput">, TextInput </span> 
+
+
+&#125 from 'react-native'<br/>
+
+
+
+
+
+ <div class="includeReducer">
+ <br/>
+ const reducer = (state, action) =&gt; &#123;<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     switch(action.actionCondition)&#123;<br/>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case actionCondition1:<br/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return [...state, stateValue1]<br/>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case actionCondition2:<br/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return [...state, stateValue2]<br/>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case actionCondition3:<br/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return [...state, stateValue3]<br/>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default:<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return &lt;error&gt;<br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#125; <br/>
+ </div>
+ 
+<br/>
+const <span class="screenName">NewScreenName</span> = () =&#62&#123<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+
+ <div class="hooks">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	const [hooks, setHooks] = useState("default");
+	<br/><br/>
+</div>
+
+<div class="includeTextInput">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   const [number, onChangeNumber] = React.useState(null);
+</div>
+
+
+<div class="includeReducer">
+<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+ const [state, runReducer] = useReducer(reducer, &#123;initialStateObject&#125;);
+<br/><br/>
+</div> 
+ 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+  return &#60View&#62 <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &#60Text style=&#123styles.text&#125 &#62This is the 
+ <span class="screenName">NewScreenName</span>&#60/Text&#62<br/>
+
+
+
+ <div class="includeImage">
+ 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	      &lt;Image
+        style=&#123;styles.stretch&#125;
+        source=&#123;require(&#39;@images/imageName.jpg&#39;)&#125;
+		<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		  &lt;Image
+        style=&#123;styles.stretch&#125;
+        source=&#123;&#123;
+          uri: &#39;https://reactnative.dev/img/tiny_logo.png&#39;,
+        &#125;&#125;
+      /&gt;
+	  <br/>
+ </div>
+ 
+ <div class="includeTextInput">
+ <br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TextInput<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;style=&#123;styles.input&#125;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;onChangeText=&#123;onChangeNumber&#125;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value=&#123;number&#125;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;placeholder=&quot;useless&nbsp;placeholder&quot;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;keyboardType=&quot;numeric&quot;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;
+ <br/>
+ </div>
+ 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &#60/View&#62<br/>
+&#125<br/>
+<br/>
+const styles = StyleSheet.create(&#123<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text:&#123<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+fontSize:30
+&#125
+
+<span class="includeTextInput">,
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input:&#123;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fontSize:40,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width:350,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height:&nbsp;70,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;backgroundColor:&nbsp;&#39;#ff0000&#39;,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;borderWidth:10,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;paddingLeft:&nbsp;10,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;paddingRight:&nbsp;10,&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;marginLeft:10,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;marginRight:10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#125;<br/>
+</span>
+
+
+
+
+<div class="includeImage">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+stretch: &#123;
+    width: 50,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    height: 200,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    resizeMode: &#39;stretch&#39;&#125
+  
+ </div> 
+<br/>&#125;)
+
+<br/><br/>export default <span class="screenName">NewScreenName</span>;<br/>
+<br/><br/><br/><br/>
+<hr style="color:red"/>
+Translate
+<textarea cols="75" rows="10" id="transformHTML"></textarea>
+<button onclick="$('#transformHTML').val(escape($('#transformHTML').val()))">Transform</button>
+<script>
+
+
+function escape(s) {
+  var escaped = {
+    " ":"&nbsp;",
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    "'": '&#39;',
+	"{": '&#123;',
+	"}": '&#125;',
+    '"': '&quot;'
+  };
+  var retVal =  s.replace(/[&<>'{}" ]/g, function (m) {
+    return escaped[m];
+  });
+  return retVal
+}
+
+
+</script>
+</body>
+
+<html>

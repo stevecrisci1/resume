@@ -1,0 +1,454 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  overflow-x:hidden;
+  
+}
+
+#weather input[type="number"]::-webkit-outer-spin-button,
+#weather input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+} 
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.header{
+	font-size:18px;
+	background-color:pink;
+	
+}
+
+#btnNext{
+	margin-left: 10px;
+}
+
+.App-header{
+	border-bottom:3px solid black;
+	background-color:beige;
+	position:absolute;
+	top:0;
+	left:0;
+	left:0;
+	height:135px;
+	width:100%;
+}
+
+.menusection{
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.headline{
+	font-size:14px;	
+}
+
+.exampleBlock{
+	background-color: #91a0d28f;
+	border:1px solid black;
+	margin:25px;
+}
+
+.inline{
+	display:inline-block;
+}
+
+.margin30{
+	margin-left:30px;
+	margin-right:30px;
+}
+
+.margin10{
+	margin-left:10px!important;
+	margin-right:10px!important;
+}
+
+.clearFix{
+	 clear: both;
+}
+
+.navButtonDiv{
+	background-color: white;
+	margin-right: 40px;
+	border-radius: 20px;
+	max-width:100px;
+	margin:5px;
+	text-align: center;
+}
+
+.navButtonText{
+	color:orangered;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.downloadButtonDiv{
+	max-width: 70px;
+	background-color: white;
+	padding-left:5px;
+	padding-right:5px;
+	border-radius: 20px;
+}
+
+.imageLink{
+	background-color: lightgray;
+	display: inline-block;
+	margin-left: 20px;
+	border-radius: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border:1px solid black;
+	margin-top:20px;
+}
+
+.job{
+	padding:20px;
+	display:inline-block;
+}
+.position{
+	display:inline-block;
+	font-weight:bold;
+}
+.dates{
+	float:right;
+	display:inline-block;
+	font-weight:bold;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.part{
+	background-color: "red";
+	height:85vh;
+	padding-left: 20px;
+}
+
+.jobSkills{
+  background-color: whitesmoke;
+  list-style: none;
+  margin: 0;
+  display: inline-flex;
+  white-space: nowrap;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.jobSkills>li{
+	padding-right: 40px;
+	
+}
+
+.displayPart{
+	height:85vh;
+	padding-left: 20px;
+	background-color:orange;
+	overflow-x: scroll;
+}
+
+.jobSquare{
+	padding: 20px;
+	background-color:orange;
+}
+
+.scrollPart{
+	padding:20px;
+	margin-left:auto;
+	margin-right:auto;
+	height:70vh;
+	width:90%;
+	overflow-y:auto;
+	background-color: silver;
+	padding:25px;
+}
+
+.refList{
+	padding-left:50px;
+	border:1px solid black;
+}
+
+.scrollEducation{
+	margin-left:auto;
+	margin-right:auto;
+	height:70vh;
+	width:90%;
+	overflow-y:auto;
+	background-color: silver;
+	padding:25px;
+}
+
+.scrollEducation{
+	margin-left:auto;
+	margin-right:auto;
+	height:70vh;
+	width:90%;
+	overflow-y:auto;
+	background-color: silver;
+	padding:25px;
+}
+
+#skills{
+	
+	background-color:orange;
+	margin:20px;
+	height:350px;
+	overflow:none;
+}
+
+#experience{
+	height:90%;
+	background-color: silver;
+	margin:20px;
+	height:390px;
+	overflow:scroll;
+}
+
+#education{
+	background-color:orange;
+	margin:20px;
+	height:350px;
+	overflow:scroll;
+}
+
+
+#references{
+	 
+	background-color:orange;
+	margin:20px;
+	height:350px;
+	overflow:scroll;
+}
+
+#tools{
+	
+	background-color:orange;
+	margin:20px;
+	height:350px;
+	overflow:none;
+}
+
+#downloadLink{
+	text-decoration:none;
+}
+
+.more{
+	    background-color: #28e6e2;
+		margin-left:10px;
+		margin-right:10px;
+}
+
+.popup {
+height:366px;
+  overflow:scroll;
+  background-color:grey;
+  visibility: hidden;
+}
+
+.popup img{
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.company{
+	padding-left:20px;
+	padding-top:20px;
+	background-color:#FFA500;
+	position: relative;
+    top: 10px;
+}
+
+.line2{
+	background-color:#FFA500;
+}
+
+.jobDescription {
+	background-color:beige;
+	border:3px solid #FFA500;
+}
+
+.title{
+	text-align:center;
+}
+
+#imageBank{
+	height: 10px;
+}
+
+
+#zipcode{
+	width: 3em;
+    font-size: x-large;
+}
+
+
+.highlight{
+	background-color: #FFA500;
+}
+
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+	background-color: #f1f1f1;
+	font-size: 20px;
+	height: 50px;
+	width: 50px;
+	background-color: goldenrod;
+	border:2px solid black;
+	font-size: 2em;
+	align-items: center;
+	text-align: center;
+  }
+
+
+  .slider::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	background: #4CAF50;
+	cursor: pointer;
+  }
+  
+
+  .controlButton{
+	margin-bottom:5px;
+	padding-left:15px;
+	padding-right:15px;
+	color:white;
+	background-color: grey;
+	height:15px;
+}
+  
+  @media screen and (min-width: 560px) {
+	.cell{
+		border:1px solid black;
+		background-color: grey;
+		height:30px;
+		width:30px;
+		font-size:medium;
+		font-weight:bold;
+		display:inline-block;
+		margin:3px;
+	  }
+	}
+
+	@media screen and (max-width: 560px) {
+		h1{
+			font-size: 2em;
+
+		}
+		.cell{
+			
+			border:1px solid black;
+			background-color: grey;
+			height:20px;
+			width:20px;
+			font-size:medium;
+			font-weight:bold;
+			display:inline-block;
+			margin:1px;
+		  }
+		}
+	
+		.cellbreak{
+	background-color: lightgreen;
+	border:1px solid black;
+	height:10px;
+	width:10px;
+	
+}
+
+#score{
+	font-size: 5em;
+}
+
+.dead{
+	background-color: silver;
+}
+.live{
+	background-color: yellow;
+}
+.wasLive{
+	background-color: black;
+}
+.wasDead{
+	background-color: red;
+}
+
+.exploded{
+	background-color: lightgray!important;
+}
+
+.hiddenBomb{
+	visibility:hidden;
+}
+
+.sampleButton{
+	margin-left:30px;
+	margin-top:10px;
+}
+#text{
+	width: 500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-height: 160px;
+    height: 120px;
+}
+.textArea{
+	z-index: 5;
+	padding: 30px;
+	background-color:silver;
+	display: none;
+	position: relative;
+	width: 600px;
+	height: 300px;
+	top: 50px;
+	left: 50px;
+	border: 10px solid black;
+}
+.textArea button{
+	margin:30px;
+}
+
+.code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.cvfox{
+	width:80%;
+}
+
+
+
+#yearsBorder{
+	border:1px solid black;
+	height:85vh;
+	background-color: orange;
+	overflow-x:scroll;
+}
+.skillListing{
+		padding-left:50px;
+		padding-right:25px;
+}
+
+
+

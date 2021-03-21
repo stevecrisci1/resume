@@ -1,0 +1,39 @@
+<html>
+<head>
+
+</head>
+<body>
+
+
+<div style="width:45%; float:left; display:inline-block; border:1px solid black">
+
+ <script>
+        function changeValue(event) {
+            let value = event.target.value;
+            let output = document.getElementById('output');
+            output.value = value;
+        }
+    </script>
+<form method="post">
+    <input 
+         type="range" 
+         name="range" 
+         min="0" 
+         max="100" 
+         step="1" 
+         value=""
+         onchange="changeValue(event)"/>
+ </form>
+ <div class="range">
+      <output id="output" name="result">  </output>
+ </div>
+ 
+ 
+ </div>
+ <div style="width:45%; float:left; display:inline-block; border:1px solid black">
+ &lt;script&gt;<br/>        function changeValue(event) {<br/>            let value = event.target.value;<br/>            let output = document.getElementById('output');<br/>            output.value = value;<br/>        }<br/>    &lt;/script&gt;<br/>&lt;form method=&quot;post&quot;&gt;<br/>    &lt;input <br/>         <mark>type=&quot;range&quot;</mark> <br/>         name=&quot;range&quot; <br/>         min=&quot;0&quot; <br/>         max=&quot;100&quot; <br/>         step=&quot;1&quot; <br/>         value=&quot;&quot;<br/>         onchange=&quot;changeValue(event)&quot;/&gt;<br/> &lt;/form&gt;<br/> &lt;div class=&quot;range&quot;&gt;<br/>      &lt;output id=&quot;output&quot; name=&quot;result&quot;&gt;  &lt;/output&gt;<br/> &lt;/div&gt;<br/>
+ </div>
+
+</body>
+
+</html>
